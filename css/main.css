@@ -131,3 +131,13 @@ body {
 	border-top: calc(var(--width) / 15) var(--blue) solid;
 	z-index: 1;
 }
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--yellow);
+	border-radius: 6px;
+	animation: 5s linear 2s infinite alternate;
+}
